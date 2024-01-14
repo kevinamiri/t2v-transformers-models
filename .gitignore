@@ -3,3 +3,7 @@ models
 nltk_data
 .venv/
 .vscode/
+venv
+weaviate_data
+ie
+.env

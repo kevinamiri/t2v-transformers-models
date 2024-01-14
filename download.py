@@ -32,7 +32,7 @@ if not onnx_runtime:
 
 onnx_cpu_arch = os.getenv('ONNX_CPU')
 if not onnx_cpu_arch:
-    onnx_cpu_arch = "arm64"
+    onnx_cpu_arch = ""
 
 print(f"Downloading MODEL_NAME={model_name} with FORCE_AUTOMODEL={force_automodel} ONNX_RUNTIME={onnx_runtime} ONNX_CPU={onnx_cpu_arch}")
 
